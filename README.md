@@ -10,7 +10,7 @@ Legalite AI is a highly sophisticated, full-stack legal intelligence application
 
 Watch Legalite AI in action! Below is a demo showcase showing how to log in, run the multi-agent CascadeFlow™ analyzer, customize legal preference checklists, and compare multiple contract offers:
 
-[![Legalite AI Video Walkthrough](C:\Contract-Review-Agent\src\assets\images\logo1.jpeg)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://drive.google.com/file/d/1tlmLDHy-OvZqES1pbJaX19o_5c8ibFfU/view?usp=sharing))
+[![Legalite AI Video Walkthrough](./src/assets/images/logo1.jpeg)](https://drive.google.com/file/d/1tlmLDHy-OvZqES1pbJaX19o_5c8ibFfU/view?usp=sharing)
 > 💡 *Note: To update this preview with your live video walkthrough, replace the placeholder links and thumbnail codes above with your custom YouTube or Loom video ID.*
 
 ### What the walkthrough covers:
@@ -25,14 +25,10 @@ Watch Legalite AI in action! Below is a demo showcase showing how to log in, run
 ## 📷 Application Showcases
 
 ### Multi-Agent Autonomous Cascade Workflow
-![CascadeFlow Multi-Agent Orchestration](<img width="1838" height="896" alt="Screenshot 2026-06-28 140834" src="https://github.com/user-attachments/assets/1b416fe4-77d8-409b-b86f-0d48ed9afa24" />
-)
-)
+![CascadeFlow Multi-Agent Orchestration](./src/assets/images/Screenshot%202026-06-28%20140733.png)
 
 ### Sleek Contract Audit & Risk Dashboard
-![Sleek Safety Assessment Dashboard](<img width="1872" height="892" alt="Screenshot 2026-06-28 140733" src="https://github.com/user-attachments/assets/26559e95-2c1d-4ff6-b6bf-12bf28552beb" />
-)
-
+![Sleek Safety Assessment Dashboard](./src/assets/images/Screenshot%202026-06-28%20140834.png)
 ---
 
 ## ✨ Core Features & Visual Pillars
