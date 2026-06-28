@@ -10,7 +10,7 @@ Legalite AI is a highly sophisticated, full-stack legal intelligence application
 
 Watch Legalite AI in action! Below is a demo showcase showing how to log in, run the multi-agent CascadeFlow™ analyzer, customize legal preference checklists, and compare multiple contract offers:
 
-[![Legalite AI Video Walkthrough](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Legalite AI Video Walkthrough](C:\Contract-Review-Agent\src\assets\images\logo1.jpeg)]([https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://drive.google.com/file/d/1tlmLDHy-OvZqES1pbJaX19o_5c8ibFfU/view?usp=sharing))
 > 💡 *Note: To update this preview with your live video walkthrough, replace the placeholder links and thumbnail codes above with your custom YouTube or Loom video ID.*
 
 ### What the walkthrough covers:
@@ -25,10 +25,13 @@ Watch Legalite AI in action! Below is a demo showcase showing how to log in, run
 ## 📷 Application Showcases
 
 ### Multi-Agent Autonomous Cascade Workflow
-![CascadeFlow Multi-Agent Orchestration](./src/assets/images/legalite_banner_1782623207168.jpg)
+![CascadeFlow Multi-Agent Orchestration](<img width="1838" height="896" alt="Screenshot 2026-06-28 140834" src="https://github.com/user-attachments/assets/1b416fe4-77d8-409b-b86f-0d48ed9afa24" />
+)
+)
 
 ### Sleek Contract Audit & Risk Dashboard
-![Sleek Safety Assessment Dashboard](./src/assets/images/legalite_preview_1782623224305.jpg)
+![Sleek Safety Assessment Dashboard](<img width="1872" height="892" alt="Screenshot 2026-06-28 140733" src="https://github.com/user-attachments/assets/26559e95-2c1d-4ff6-b6bf-12bf28552beb" />
+)
 
 ---
 
@@ -95,73 +98,6 @@ Follow these simple steps to run Legalite AI on your local machine using VS Code
 2. The server boots up. The terminal will output:
    `Legalite AI running at http://localhost:3000`
 3. Click or navigate to **`http://localhost:3000`** in your browser to view the application.
-
----
-
-## 🚀 How to Deploy on Vercel
-
-Because Legalite AI uses a custom full-stack server (`server.ts`), we can set up **Vercel Serverless Functions** or standard Node.js routing.
-
-### Step 1: Create a `vercel.json` file
-Create a `vercel.json` configuration file in the project's root directory with the following contents:
-
-```json
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/index.ts",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "api/index.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
-}
-```
-
-### Step 2: Create a serverless API directory
-Create a new file at `api/index.ts` to export your Express app.
-
-Example `api/index.ts`:
-```ts
-import express from 'express';
-// Import your app setup, routes, and handlers from your existing server logic.
-// Ensure you do not listen to a hardcoded port when exported for Vercel Serverless.
-```
-
-### Step 3: Deploy with Vercel CLI
-1. Open your terminal and install the Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-2. Log in to Vercel:
-   ```bash
-   vercel login
-   ```
-3. Run the deployment command from the project root:
-   ```bash
-   vercel
-   ```
-4. Follow the setup prompts. Add your environment variables (like `GEMINI_API_KEY`) in the Vercel Dashboard for secure server-side requests.
-5. For a production-ready deploy, run:
-   ```bash
-   vercel --prod
-   ```
 
 ---
 
