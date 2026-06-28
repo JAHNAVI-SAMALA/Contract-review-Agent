@@ -28,7 +28,7 @@ Watch Legalite AI in action! Below is a demo showcase showing how to log in, run
 ![Sleek Safety Assessment Dashboard](./src/assets/images/Screenshot%202026-06-28%20140733.png)
 
 ### Multi-Agent Autonomous Cascade Workflow
-!CascadeFlow Multi-Agent Orchestration](./src/assets/images/Screenshot%202026-06-28%20140834.png)
+![CascadeFlow Multi-Agent Orchestration](./src/assets/images/Screenshot%202026-06-28%20140834.png)
 ---
 
 ## ✨ Core Features & Visual Pillars
