@@ -1,0 +1,6 @@
+{
+  "name": "Legalite AI",
+  "description": "Legalite AI is an advanced multi-agent contract auditing platform. It evaluates uploaded contracts against custom user legal preferences, uncovers hidden risks, generates comprehensive compliance scorecards, provides comparative analyses of multiple offers, and maintains an intelligent hindsight memory.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
