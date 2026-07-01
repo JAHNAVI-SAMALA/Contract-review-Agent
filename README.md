@@ -11,7 +11,7 @@ Legalite AI is a highly sophisticated, full-stack legal intelligence application
 Watch Legalite AI in action! Below is a demo showcase showing how to log in, run the multi-agent CascadeFlow™ analyzer, customize legal preference checklists, and compare multiple contract offers:
 
 [![Legalite AI Video Walkthrough](./src/assets/images/logo1.jpeg)](https://drive.google.com/file/d/1tlmLDHy-OvZqES1pbJaX19o_5c8ibFfU/view?usp=sharing)
-> 💡 *Note: To update this preview with your live video walkthrough, replace the placeholder links and thumbnail codes above with your custom YouTube or Loom video ID.*
+> 💡 *Note: click on the logo to view the demo*
 
 ### What the walkthrough covers:
 1. **The Fresh Demo Engine**: One-click "Try Free Demo" with automatic sandbox provisioning, ensuring each demo session gets a completely clean slate with zero cross-user pollution.
