@@ -118,3 +118,7 @@ Follow these simple steps to run Legalite AI on your local machine using VS Code
 
 ## 🔒 Security & Privacy Notice
 All files, text, and keys are protected. Contracts analyzed via the **Gemini API** on the server are handled using private TLS protocols and are never exposed to the client browser. No persistent logs of contract contents are retained externally.
+
+## Authors
+Jahnavi Samala
+Aditi Muddasani
